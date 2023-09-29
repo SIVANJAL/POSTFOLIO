@@ -176,15 +176,15 @@ color: yellow
 -- ftd.image: 
 if: { !header-mobile.open }
 src: $assets.files.assets.hamburger-menu.svg
-height.fixed.px: 32
-align-self: center
+height.fixed.px: 50
+align-self: right
 $on-click$: $ftd.set-bool($a = $header-mobile.open, v = true)
 
 -- ftd.image: 
 if: { header-mobile.open }
 src: $assets.files.assets.cross.svg
-height.fixed.px: 32
-align-self: center
+height.fixed.px:90
+align-self: right
 $on-click$: $ftd.set-bool($a = $header-mobile.open, v = false)
 
 -- end: ftd.row
@@ -203,24 +203,24 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: yellow
 link: $header-mobile.cta-text-1-url
 
 -- ftd.text: $header-mobile.cta-text-2
 role: $inherited.types.label-large
-text-align: center
+text-align: right
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: yellow
 link: $header-mobile.cta-text-2-url
 
 
 -- ftd.text: $header-mobile.cta-text-3
 role: $inherited.types.label-large
-text-align: center
+text-align: right
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: yellow
 link: $header-mobile.cta-text-3-url
 
 -- end: ftd.column
@@ -292,7 +292,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: pink
 link: $header-desktop.cta-text-1-url
 
 
@@ -301,7 +301,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 0
-color: white
+color: pink
 link: $header-desktop.cta-text-2-url
 
 
@@ -310,7 +310,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: pink
 link: $header-desktop.cta-text-3-url
 
 -- ftd.text: $header-desktop.cta-text-4
@@ -319,7 +319,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: pink
 link: $header-desktop.cta-text-4-url
 
 -- ftd.text: $header-desktop.cta-text-5
@@ -328,7 +328,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: pink
 link: $header-desktop.cta-text-5-url
 
 -- ftd.text: $header-desktop.cta-text-6
@@ -337,7 +337,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: white
+color: pink
 link: $header-desktop.cta-text-6-url
 
 -- end: ftd.row
@@ -380,7 +380,7 @@ border-bottom-width.px: 2
 
 -- ftd.image:
 src: $footer.icon-1
-height.fixed.px: 32
+height.fixed.px: 50
 width.fixed.px: 32
 link: $footer.url-1
 
@@ -409,18 +409,18 @@ style: semi-bold
 -- ftd.text: FASTN 
 role: $inherited.types.label-large
 style: semi-bold
-color: yellow
+color: pink
 link: https://fastn.com/
 
 -- ftd.text: by
 role: $inherited.types.label-large
 style: semi-bold
-color: white
+color: pink
 
 -- ftd.text: Trizwit
 role: $inherited.types.label-large
 style: semi-bold
-color: white
+color: pink
 link: https://trizwit.com/
 
 -- end: ftd.row
