@@ -17,7 +17,6 @@ optional string cta-text-10:
 optional string cta-button-1: 
 optional string cta-button-2: 
 children c:
-
 -- ftd.column:
 width: fill-container
 types: $holy-angel-typography.types
@@ -37,7 +36,7 @@ icon-2: $assets.files.assets.twit.svg
 url-2: https://twitter.com/trizwit
 icon-3: $assets.files.assets.github.svg
 url-3: https://github.com/Trizwit
-
+text:Build by
 -- end: ftd.column
 
 -- end: page
@@ -273,7 +272,7 @@ border-radius.px: 20
 -- ftd.image:
 src: $header-desktop.logo
 width.fixed.px: 55
-height: auto
+height: 50
 border-radius.px: 20
 margin-vertical.px: 10
 
@@ -364,17 +363,17 @@ ftd.image-src icon-2:
 string url-2:
 ftd.image-src icon-3:
 string url-3:
-
+string text
 -- ftd.column:
 align-self: center
-align-content: center
+align-content: end
 width: fill-container
 margin-vertical.vh: 6
 
 -- ftd.row:
 width.fixed.percent: 90
 align-self: center
-align-content: center
+align-content: right
 spacing.fixed.px: 24
 padding-bottom.px: 24
 border-bottom-width.px: 2
@@ -406,12 +405,11 @@ spacing.fixed.vh: 0.9
 -- ftd.text: Made with 
 role: $inherited.types.label-large
 style: semi-bold
-color: white
 
 -- ftd.text: FASTN 
 role: $inherited.types.label-large
 style: semi-bold
-color: white
+color: yellow
 link: https://fastn.com/
 
 -- ftd.text: by
