@@ -55,9 +55,9 @@ colors: $color-values-2
 
 -- ftd.linear-gradient-color list color-values-2:
 
--- ftd.linear-gradient-color: #111111
+-- ftd.linear-gradient-color: #FFFF00
 
--- ftd.linear-gradient-color: #222222
+-- ftd.linear-gradient-color: #FFFF00
 
 -- end: color-values-2
 
@@ -280,7 +280,7 @@ margin-vertical.px: 10
 margin-horizontal.px: 10
 text-align: center
 align-self: center
-color: white
+color: yellow
 
 -- ftd.row:
 width: fill-container
@@ -292,7 +292,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: pink
+color: yellow
 link: $header-desktop.cta-text-1-url
 
 
@@ -301,7 +301,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 0
-color: pink
+color: yellow
 link: $header-desktop.cta-text-2-url
 
 
@@ -310,7 +310,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: pink
+color: yellow
 link: $header-desktop.cta-text-3-url
 
 -- ftd.text: $header-desktop.cta-text-4
@@ -319,7 +319,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: pink
+color: yellow
 link: $header-desktop.cta-text-4-url
 
 -- ftd.text: $header-desktop.cta-text-5
@@ -328,7 +328,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: pink
+color: yellow
 link: $header-desktop.cta-text-5-url
 
 -- ftd.text: $header-desktop.cta-text-6
@@ -337,7 +337,7 @@ role: $inherited.types.label-large
 text-align: center
 margin-vertical.px: 28
 margin-horizontal.px: 32
-color: pink
+color: yellow
 link: $header-desktop.cta-text-6-url
 
 -- end: ftd.row
@@ -409,18 +409,18 @@ style: semi-bold
 -- ftd.text: FASTN 
 role: $inherited.types.label-large
 style: semi-bold
-color: pink
+color: yellow
 link: https://fastn.com/
 
 -- ftd.text: by
 role: $inherited.types.label-large
 style: semi-bold
-color: pink
+color: yellow
 
 -- ftd.text: Trizwit
 role: $inherited.types.label-large
 style: semi-bold
-color: pink
+color: yellow
 link: https://trizwit.com/
 
 -- end: ftd.row
