@@ -166,10 +166,10 @@ border-radius.px: 20
 margin-vertical.px: 10
 
 -- ftd.text: $header-mobile.logo-text
-margin-horizontal.px: 10
+margin-horizontal.px: 90
 text-align: center
-align-self: center
-color: white
+align-self: right
+color: yellow
 
 -- end: ftd.row
 
